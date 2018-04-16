@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Project xmi:id="_QstDEUFLEei6MZ3vcdFggw" label="GDELTAnalysisProject" description="Projet d'analyse des données GDELT" language="java" technicalLabel="GDELTANALYSISPROJECT" author="_QstDEkFLEei6MZ3vcdFggw" productVersion="Talend Integration Cloud Elastic Edition-6.5.1.20180116_1512" url="{&quot;location&quot;:&quot;https://github.com/saumande/gdelt-project.git&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DQ" bigData="false"/>
+  <TalendProperties:User xmi:id="_QstDEkFLEei6MZ3vcdFggw" login="saumande@eval7366.talend.com" firstName="Nicolas" lastName="Saumande" type="DI"/>
+</xmi:XMI>
