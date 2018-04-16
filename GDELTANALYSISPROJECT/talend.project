@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
   <TalendProperties:Project xmi:id="_QstDEUFLEei6MZ3vcdFggw" label="GDELTAnalysisProject" description="Projet d'analyse des données GDELT" language="java" technicalLabel="GDELTANALYSISPROJECT" author="_QstDEkFLEei6MZ3vcdFggw" productVersion="Talend Integration Cloud Elastic Edition-6.5.1.20180116_1512" url="{&quot;location&quot;:&quot;https://github.com/saumande/gdelt-project.git&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DQ" bigData="false">
+    <technicalStatus xmi:id="_RWltkEFLEei6MZ3vcdFggw" label="development" code="DEV"/>
+    <technicalStatus xmi:id="_RWltkUFLEei6MZ3vcdFggw" label="testing" code="TEST"/>
+    <technicalStatus xmi:id="_RWltkkFLEei6MZ3vcdFggw" label="production" code="PROD"/>
+    <documentationStatus xmi:id="_RWb8kEFLEei6MZ3vcdFggw" label="unchecked" code="UCK"/>
+    <documentationStatus xmi:id="_RWb8kUFLEei6MZ3vcdFggw" label="checked" code="CHK"/>
+    <documentationStatus xmi:id="_RWb8kkFLEei6MZ3vcdFggw" label="validated" code="VAL"/>
     <migrationTask xmi:id="_RUDW8EFLEei6MZ3vcdFggw" id="org.talend.repository.localprovider.RemoveRoutineFolderTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_RUDW8UFLEei6MZ3vcdFggw" id="org.talend.repository.localprovider.model.migration.ChangeXmiSerialization" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_RUDW8kFLEei6MZ3vcdFggw" id="org.talend.repository.model.migration.CleanFoldersMigrationTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
