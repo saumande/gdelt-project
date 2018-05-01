@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
-  <context confirmationNeeded="false" name="Default"/>
+  <context confirmationNeeded="false" name="Default">
+    <contextParameter comment="" name="dateFrom" prompt="dateFrom?" promptNeeded="false" type="id_Date" value="2018-05-01 00:00:00"/>
+    <contextParameter comment="" name="repWork" prompt="repWork?" promptNeeded="false" type="id_Directory" value="C:/Users/nsaumande/Desktop/GDELT/Fichiers/"/>
+    <contextParameter comment="" name="AzureStorage_Roadshow_accountKey" prompt="AzureStorage_Roadshow_accountKey?" promptNeeded="false" repositoryContextId="_CmRZ4E0-EeiDGJbYmYjfKg" type="id_Password" value="08qtVvE1afhsyrgwxaw0q9+mVW0whpWwuA0+30ZGi+gFViCWBK/W4MbNf9pj24lNijXDW06i8ca77B1iInLBtpKeY6vGN2SNxJQVrKosQONm0Vz3DuPgw0ldeV6EuPX6"/>
+    <contextParameter comment="" name="AzureStorage_Roadshow_accountName" prompt="AzureStorage_Roadshow_accountName?" promptNeeded="false" repositoryContextId="_CmRZ4E0-EeiDGJbYmYjfKg" type="id_String" value="roadshowbdstorage"/>
+    <contextParameter comment="" name="AzureStorage_Roadshow_sharedAccessSignature" prompt="AzureStorage_Roadshow_sharedAccessSignature?" promptNeeded="false" repositoryContextId="_CmRZ4E0-EeiDGJbYmYjfKg" type="id_String" value=""/>
+    <contextParameter comment="" name="Container_Name" prompt="Container_Name?" promptNeeded="false" repositoryContextId="_CmRZ4E0-EeiDGJbYmYjfKg" type="id_String" value="roadshowbdrawdata"/>
+    <contextParameter comment="" name="Storage_Folder" prompt="Storage_Folder?" promptNeeded="false" repositoryContextId="_CmRZ4E0-EeiDGJbYmYjfKg" type="id_String" value="data/input"/>
+    <contextParameter comment="Fichier event code GDELT v2.csv" name="resource_file_" prompt="resource_file_?" promptNeeded="false" type="id_String" value="C:/Users/nsaumande/Desktop/GDELT/event code GDELT v2.csv"/>
+  </context>
   <parameters>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" value="0" show="false"/>
@@ -123,7 +132,7 @@
     <elementParameter field="TEXT" name="CONTEXT_NAME" value="Default" show="false"/>
     <elementParameter field="CHECK" name="USE_INDEPENDENT_PROCESS" value="false"/>
     <elementParameter field="CHECK" name="DIE_ON_CHILD_ERROR" value="true"/>
-    <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="false"/>
+    <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="true"/>
     <elementParameter field="TABLE" name="CONTEXTPARAMS"/>
     <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
     <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
@@ -143,7 +152,7 @@
     <elementParameter field="TEXT" name="CONTEXT_NAME" value="Default" show="false"/>
     <elementParameter field="CHECK" name="USE_INDEPENDENT_PROCESS" value="false"/>
     <elementParameter field="CHECK" name="DIE_ON_CHILD_ERROR" value="true"/>
-    <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="false"/>
+    <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="true"/>
     <elementParameter field="TABLE" name="CONTEXTPARAMS"/>
     <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
     <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
