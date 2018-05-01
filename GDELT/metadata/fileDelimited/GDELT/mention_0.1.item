@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_Kw-uEUGkEei4kOFnbAq1SA" name="mention" dataPackage="_Kw-uEkGkEei4kOFnbAq1SA" Server="Localhost 127.0.0.1" FilePath="C:/Users/nsaumande/Desktop/GDELT/Fichiers/20150218234500.mentions.CSV" Encoding="US-ASCII" FieldSeparatorValue="&quot;\t&quot;" RowSeparatorValue="&quot;\n&quot;" FieldSeparatorType="Tabulation"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_Kw-uEkGkEei4kOFnbAq1SA" name="default" dataManager="_Kw-uEUGkEei4kOFnbAq1SA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_Kw-uE0GkEei4kOFnbAq1SA" id="_Wdop0EGhEei4kOFnbAq1SA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Kw-uFEGkEei4kOFnbAq1SA" label="GlobalEventID" length="9" talendType="id_Integer" nullable="false" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Kw-uFUGkEei4kOFnbAq1SA" label="EventTimeDate" length="14" talendType="id_Long" nullable="false" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Kw-uFkGkEei4kOFnbAq1SA" label="MentionTimeDate" length="14" talendType="id_Long" nullable="false" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Kw-uF0GkEei4kOFnbAq1SA" label="MentionType" length="1" talendType="id_Integer" nullable="false" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Kw-uGEGkEei4kOFnbAq1SA" label="MentionSourceName" length="27" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Kw-uGUGkEei4kOFnbAq1SA" label="MentionIdentifier" length="159" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Kw-uGkGkEei4kOFnbAq1SA" label="SentenceID" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Kw-uG0GkEei4kOFnbAq1SA" label="Actor1CharOffset" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Kw-uHEGkEei4kOFnbAq1SA" label="Actor2CharOffset" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Kw-uHUGkEei4kOFnbAq1SA" label="ActionCharOffset" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Kw-uHkGkEei4kOFnbAq1SA" label="InRawText" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Kw-uH0GkEei4kOFnbAq1SA" label="Confidence" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Kw-uIEGkEei4kOFnbAq1SA" label="MentionDocLen" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Kw-uIUGkEei4kOFnbAq1SA" label="MentionDocTone" length="17" precision="15" talendType="id_Double" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Kw-uIkGkEei4kOFnbAq1SA" label="MentionDocTranslationInfo" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Kw-uI0GkEei4kOFnbAq1SA" comment="Blank" label="Extras" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
