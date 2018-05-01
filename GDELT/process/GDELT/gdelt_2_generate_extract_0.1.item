@@ -7,7 +7,7 @@
     <contextParameter comment="" name="AzureStorage_Roadshow_sharedAccessSignature" prompt="AzureStorage_Roadshow_sharedAccessSignature?" promptNeeded="false" repositoryContextId="_CmRZ4E0-EeiDGJbYmYjfKg" type="id_String" value=""/>
     <contextParameter comment="" name="Container_Name" prompt="Container_Name?" promptNeeded="false" repositoryContextId="_CmRZ4E0-EeiDGJbYmYjfKg" type="id_String" value="roadshowbdrawdata"/>
     <contextParameter comment="" name="Storage_Folder" prompt="Storage_Folder?" promptNeeded="false" repositoryContextId="_CmRZ4E0-EeiDGJbYmYjfKg" type="id_String" value="data/input"/>
-    <contextParameter comment="Fichier event code GDELT v2.csv" name="resource_file_" prompt="resource_file_?" promptNeeded="false" type="id_String" value="C:/Users/nsaumande/Desktop/GDELT/event code GDELT v2.csv"/>
+    <contextParameter comment="Fichier event code GDELT v2.csv" name="resource_file_eventCode" prompt="resource_file_eventCode?" promptNeeded="false" type="id_String" value="C:/Users/nsaumande/Desktop/GDELT/event code GDELT v2.csv"/>
   </context>
   <parameters>
     <elementParameter field="TEXT" name="JOB_RUN_VM_ARGUMENTS" value="{&quot;JOB_RUN_VM_ARGUMENTS&quot;:[&quot;-Xms1024M&quot;,&quot;-Xmx4096M&quot;]}" show="false"/>
@@ -1698,7 +1698,7 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputExcel_1" show="false"/>
     <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="CHECK" name="VERSION_2007" value="true"/>
-    <elementParameter field="FILE" name="FILENAME" value="context.resource_file_"/>
+    <elementParameter field="FILE" name="FILENAME" value="context.resource_file_eventCode"/>
     <elementParameter field="CHECK" name="ALL_SHEETS" value="true"/>
     <elementParameter field="TABLE" name="SHEETLIST" show="false"/>
     <elementParameter field="TEXT" name="HEADER" value="1"/>
@@ -1921,7 +1921,7 @@
   <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="192" posY="288">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputDelimited_3" show="false"/>
     <elementParameter field="LABEL" name="FILENAMETEXT" value="&quot;When the input source is a stream or a zip file,footer and random shouldn't be bigger than 0.&quot;"/>
-    <elementParameter field="FILE" name="FILENAME" value="context.resource_file_"/>
+    <elementParameter field="FILE" name="FILENAME" value="context.resource_file_eventCode"/>
     <elementParameter field="CHECK" name="CSV_OPTION" value="false"/>
     <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;"/>
     <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" value="&quot;\n&quot;" show="false"/>
