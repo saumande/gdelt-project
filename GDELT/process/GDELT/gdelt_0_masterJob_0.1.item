@@ -8,7 +8,7 @@
     <contextParameter comment="" name="AzureStorage_Roadshow_sharedAccessSignature" prompt="AzureStorage_Roadshow_sharedAccessSignature?" promptNeeded="false" repositoryContextId="_CmRZ4E0-EeiDGJbYmYjfKg" type="id_String" value=""/>
     <contextParameter comment="" name="Container_Name" prompt="Container_Name?" promptNeeded="false" repositoryContextId="_CmRZ4E0-EeiDGJbYmYjfKg" type="id_String" value="roadshowbdrawdata"/>
     <contextParameter comment="" name="Storage_Folder" prompt="Storage_Folder?" promptNeeded="false" repositoryContextId="_CmRZ4E0-EeiDGJbYmYjfKg" type="id_String" value="data/input"/>
-    <contextParameter comment="Fichier event code GDELT v2.csv" name="resource_file_" prompt="resource_file_?" promptNeeded="false" type="id_String" value="C:/Users/nsaumande/Desktop/GDELT/event code GDELT v2.csv"/>
+    <contextParameter comment="Fichier event code GDELT v2.csv" name="resource_file_eventCode" prompt="resource_file_eventCode?" promptNeeded="false" type="id_String" value="C:/Users/nsaumande/Desktop/GDELT/event code GDELT v2.csv"/>
   </context>
   <parameters>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
