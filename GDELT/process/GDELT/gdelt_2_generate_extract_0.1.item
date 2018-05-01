@@ -1941,7 +1941,7 @@
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tJobLog_7"/>
   </node>
-  <node componentName="tJobLog" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="608" posY="1184">
+  <node componentName="tJobLog" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="704" posY="1184">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJobLog_8" show="false"/>
     <elementParameter field="RADIO" name="DEV_LOG" value="true"/>
     <elementParameter field="RADIO" name="BUSINESS_LOG" value="false"/>
@@ -2402,6 +2402,9 @@
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row6" show="false"/>
   </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tAzureStorageList_1" offsetLabelX="0" offsetLabelY="0" source="tAzureStorageList_1" target="tJobLog_8">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk11" show="false"/>
+  </connection>
   <connection connectorName="FLOW" label="row7" lineStyle="0" metaname="tContextDump_1" offsetLabelX="0" offsetLabelY="0" source="tContextDump_1" target="tLogRow_2">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row7" show="false"/>
@@ -2413,11 +2416,11 @@
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="inEventCode" show="false"/>
   </connection>
-  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tFileInputDelimited_3" offsetLabelX="0" offsetLabelY="0" outputId="1" source="tFileInputDelimited_3" target="tFileList_2">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk4" show="false"/>
-  </connection>
-  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tFileInputDelimited_3" offsetLabelX="0" offsetLabelY="0" outputId="2" source="tFileInputDelimited_3" target="tJobLog_2">
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tFileInputDelimited_3" offsetLabelX="0" offsetLabelY="0" outputId="1" source="tFileInputDelimited_3" target="tJobLog_2">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk8" show="false"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tFileInputDelimited_3" offsetLabelX="0" offsetLabelY="0" outputId="2" source="tFileInputDelimited_3" target="tFileList_2">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk4" show="false"/>
   </connection>
   <connection connectorName="FLOW" label="out_eventCode" lineStyle="0" metaname="out_eventCode" offsetLabelX="0" offsetLabelY="0" source="tMap_3" target="tHashOutput_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
