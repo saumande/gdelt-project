@@ -3,7 +3,7 @@
   <context confirmationNeeded="false" name="Default">
     <contextParameter comment="" name="dateFrom" prompt="dateFrom?" promptNeeded="false" type="id_Date" value="2018-05-01 00:00:00"/>
     <contextParameter comment="" name="dateTo" prompt="dateTo?" promptNeeded="false" type="id_Date" value="2018-05-31 00:00:00"/>
-    <contextParameter comment="" name="repWork" prompt="repWork?" promptNeeded="false" type="id_Directory" value="C:/Users/nsaumande/Desktop/GDELT/Fichiers/"/>
+    <contextParameter comment="" name="repWork" prompt="repWork?" promptNeeded="false" type="id_Directory" value="C:/Users/nsaumande/Desktop/GDELT/Fichiers/test"/>
   </context>
   <parameters>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
