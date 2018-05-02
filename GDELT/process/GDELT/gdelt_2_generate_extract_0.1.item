@@ -2273,8 +2273,8 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row5" show="false"/>
   </connection>
   <connection connectorName="ITERATE" label="Iterate" lineStyle="7" metaname="tLoop_1" offsetLabelX="0" offsetLabelY="0" source="tLoop_1" target="tSetGlobalVar_2">
-    <elementParameter field="CHECK" name="ENABLE_PARALLEL" value="false"/>
-    <elementParameter field="TEXT" name="NUMBER_PARALLEL" value="2" show="false"/>
+    <elementParameter field="CHECK" name="ENABLE_PARALLEL" value="true"/>
+    <elementParameter field="TEXT" name="NUMBER_PARALLEL" value="2"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="iterate3" show="false"/>
   </connection>
   <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tLoop_1" offsetLabelX="0" offsetLabelY="0" source="tLoop_1" target="tJobLog_7">
