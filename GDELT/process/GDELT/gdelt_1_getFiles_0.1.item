@@ -302,7 +302,7 @@
     <elementParameter field="CHECK" name="SINGLE_COOKIE" value="false" show="false"/>
     <elementParameter field="CHECK" name="ENCODE_URI" value="false"/>
     <elementParameter field="CHECK" name="PRINT" value="false"/>
-    <elementParameter field="TEXT" name="TIMEOUT" value="1000"/>
+    <elementParameter field="TEXT" name="TIMEOUT" value="5000"/>
     <elementParameter field="CHECK" name="UPLOAD" value="false" show="false"/>
     <elementParameter field="TABLE" name="FILE_PARAMS" show="false"/>
     <elementParameter field="CHECK" name="USE_PROXY" value="false"/>
