@@ -1904,7 +1904,7 @@
   </node>
   <node componentName="tFileDelete" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="832" posY="1056">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileDelete_3" show="false"/>
-    <elementParameter field="FILE" name="FILENAME" value="context.repWork + &quot;/toazure/Extract_&quot; + globalMap.get(&quot;fileDate&quot;)"/>
+    <elementParameter field="FILE" name="FILENAME" value="context.repWork + &quot;/toazure/Extract_&quot; + globalMap.get(&quot;fileDate&quot;) + &quot;.zip&quot;"/>
     <elementParameter field="DIRECTORY" name="DIRECTORY" value="&quot;C:/Talend/TOS_DI-20180116_1512-V6.5.1/workspace/delete_folder&quot;" show="false"/>
     <elementParameter field="TEXT" name="PATH" value="&quot;C:/Talend/TOS_DI-20180116_1512-V6.5.1/workspace/delete_folder or delete_file&quot;" show="false"/>
     <elementParameter field="CHECK" name="FAILON" value="true"/>
