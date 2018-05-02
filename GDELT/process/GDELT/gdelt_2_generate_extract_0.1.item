@@ -1470,9 +1470,9 @@
       <column comment="" key="false" length="17" name="AvgTone_avg" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="15" type="id_Double" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties/>
+      <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
-      <outputTables sizeState="INTERMEDIATE" name="out" expressionFilter="row1.GoldsteinScale != null" activateExpressionFilter="true">
+      <outputTables sizeState="INTERMEDIATE" name="out" expressionFilter="row1.GoldsteinScale != null &amp;&amp;  row1.SOURCEURL != null" activateExpressionFilter="true">
         <mapperTableEntries name="EventCode" expression="row1.EventCode " type="id_String" nullable="true"/>
         <mapperTableEntries name="EventBaseCode" expression="row1.EventBaseCode " type="id_String" nullable="true"/>
         <mapperTableEntries name="EventRootCode" expression="row1.EventRootCode " type="id_String" nullable="true"/>
