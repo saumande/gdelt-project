@@ -1470,7 +1470,7 @@
       <column comment="" key="false" length="17" name="AvgTone_avg" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="15" type="id_Double" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties/>
+      <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="out" expressionFilter="row1.GoldsteinScale != null &amp;&amp;  row1.SOURCEURL != null &amp;&amp; !&quot;&quot;.equals(row1.SOURCEURL)" activateExpressionFilter="true">
         <mapperTableEntries name="EventCode" expression="row1.EventCode " type="id_String" nullable="true"/>
@@ -1512,7 +1512,7 @@
         <mapperTableEntries name="ActionGeo_ADM1Code" expression="row1.ActionGeo_ADM1Code " type="id_String" nullable="true"/>
         <mapperTableEntries name="ActionGeo_ADM2Code" expression="row1.ActionGeo_ADM2Code " type="id_String" nullable="true"/>
         <mapperTableEntries name="SOURCEURL" expression="row1.SOURCEURL " type="id_String" nullable="true"/>
-        <mapperTableEntries name="SiteUrl" expression="row1.SOURCEURL.substring(row1.SOURCEURL.indexOf(&quot;//&quot;)+2, row1.SOURCEURL.substring(10).indexOf(&quot;/&quot;) + 10) " type="id_String" nullable="true"/>
+        <mapperTableEntries name="SiteUrl" expression="StringHandling.LEFT(row1.SOURCEURL,4).equals(&quot;http&quot;) ?&#xD;&#xA;row1.SOURCEURL.substring(row1.SOURCEURL.indexOf(&quot;//&quot;)+2, row1.SOURCEURL.substring(10).indexOf(&quot;/&quot;) + 10) : null " type="id_String" nullable="true"/>
         <mapperTableEntries name="GoldsteinScale_avg" expression="row1.GoldsteinScale " type="id_Double" nullable="true"/>
         <mapperTableEntries name="NumMentions_sum" expression="row1.NumMentions " type="id_Integer" nullable="true"/>
         <mapperTableEntries name="NumSources_sum" expression="row1.NumSources " type="id_Integer" nullable="true"/>
