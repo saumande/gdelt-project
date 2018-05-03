@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
   <context confirmationNeeded="false" name="Default">
-    <contextParameter comment="" name="dateFrom" prompt="dateFrom?" promptNeeded="false" type="id_Date" value="2017-08-15 00:00:00"/>
-    <contextParameter comment="" name="dateTo" prompt="dateTo?" promptNeeded="false" type="id_Date" value="2017-08-16 23:59:59"/>
+    <contextParameter comment="" name="dateFrom" prompt="dateFrom?" promptNeeded="false" type="id_Date" value="2016-12-05 00:00:00"/>
+    <contextParameter comment="" name="dateTo" prompt="dateTo?" promptNeeded="false" type="id_Date" value="2016-12-05 23:59:59"/>
     <contextParameter comment="" name="repWork" prompt="repWork?" promptNeeded="false" type="id_Directory" value="C:/Users/nsaumande/Desktop/GDELT/Fichiers/test/"/>
     <contextParameter comment="" name="AzureStorage_Roadshow_accountKey" prompt="AzureStorage_Roadshow_accountKey?" promptNeeded="false" repositoryContextId="_CmRZ4E0-EeiDGJbYmYjfKg" type="id_Password" value="08qtVvE1afhsyrgwxaw0q9+mVW0whpWwuA0+30ZGi+gFViCWBK/W4MbNf9pj24lNijXDW06i8ca77B1iInLBtpKeY6vGN2SNxJQVrKosQONm0Vz3DuPgw0ldeV6EuPX6"/>
     <contextParameter comment="" name="AzureStorage_Roadshow_accountName" prompt="AzureStorage_Roadshow_accountName?" promptNeeded="false" repositoryContextId="_CmRZ4E0-EeiDGJbYmYjfKg" type="id_String" value="roadshowbdstorage"/>
