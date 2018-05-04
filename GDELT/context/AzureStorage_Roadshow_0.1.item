@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_ZFww0E1hEeira-DiVZEmYA" confirmationNeeded="false" name="Default">
-  <contextParameter xmi:id="_ZFww0U1hEeira-DiVZEmYA" comment="" name="AzureStorage_Roadshow_accountKey" prompt="AzureStorage_Roadshow_accountKey?" promptNeeded="false" type="id_Password" value="08qtVvE1afhsyrgwxaw0q9+mVW0whpWwuA0+30ZGi+gFViCWBK/W4MbNf9pj24lNijXDW06i8ca77B1iInLBtpKeY6vGN2SNxJQVrKosQONm0Vz3DuPgw0ldeV6EuPX6"/>
-  <contextParameter xmi:id="_ZFww0k1hEeira-DiVZEmYA" comment="" name="AzureStorage_Roadshow_accountName" prompt="AzureStorage_Roadshow_accountName?" promptNeeded="false" type="id_String" value="roadshowbdstorage"/>
-  <contextParameter xmi:id="_ZFww001hEeira-DiVZEmYA" comment="" name="AzureStorage_Roadshow_sharedAccessSignature" prompt="AzureStorage_Roadshow_sharedAccessSignature?" promptNeeded="false" type="id_String" value=""/>
-  <contextParameter xmi:id="_ZFww1E1hEeira-DiVZEmYA" comment="" name="Container_Name" prompt="Container_Name?" promptNeeded="false" type="id_String" value="roadshowbdrawdata"/>
-  <contextParameter xmi:id="_ZFww1U1hEeira-DiVZEmYA" comment="" name="Storage_Folder" prompt="Storage_Folder?" promptNeeded="false" type="id_String" value="data/input"/>
-</talendfile:ContextType>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_ZlVy8E-JEei7rdav0JnHBA" confirmationNeeded="false" name="BnD">
+    <contextParameter xmi:id="_ZlVy8U-JEei7rdav0JnHBA" comment="" name="AzureStorage_Roadshow_accountKey" prompt="AzureStorage_Roadshow_accountKey?" promptNeeded="false" type="id_Password" value="08qtVvE1afhsyrgwxaw0q9+mVW0whpWwuA0+30ZGi+gFViCWBK/W4MbNf9pj24lNijXDW06i8ca77B1iInLBtpKeY6vGN2SNxJQVrKosQONm0Vz3DuPgw0ldeV6EuPX6"/>
+    <contextParameter xmi:id="_ZlVy8k-JEei7rdav0JnHBA" comment="" name="AzureStorage_Roadshow_accountName" prompt="AzureStorage_Roadshow_accountName?" promptNeeded="false" type="id_String" value="roadshowbdstorage"/>
+    <contextParameter xmi:id="_ZlVy80-JEei7rdav0JnHBA" comment="" name="AzureStorage_Roadshow_sharedAccessSignature" prompt="AzureStorage_Roadshow_sharedAccessSignature?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_ZlVy9E-JEei7rdav0JnHBA" comment="" name="Container_Name" prompt="Container_Name?" promptNeeded="false" type="id_String" value="roadshowbdrawdata"/>
+    <contextParameter xmi:id="_ZlVy9U-JEei7rdav0JnHBA" comment="" name="Storage_Folder" prompt="Storage_Folder?" promptNeeded="false" type="id_String" value="data/input"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_ZFww0E1hEeira-DiVZEmYA" confirmationNeeded="false" name="Default">
+    <contextParameter xmi:id="_ZFww0U1hEeira-DiVZEmYA" comment="" name="AzureStorage_Roadshow_accountKey" prompt="AzureStorage_Roadshow_accountKey?" promptNeeded="false" type="id_Password" value="pdbGveAQmG7ejjYs2rMfLrE9M6a5x/1OJAi7PcHnIW3RcftTM/1b/vGSIWC5KoEIdL+As28A5QnvK2hjPuzEDe6hthZ/gd0Adv7Nvqqt9+fhLvFrqkdOLA3oIPPPdV2S"/>
+    <contextParameter xmi:id="_ZFww0k1hEeira-DiVZEmYA" comment="" name="AzureStorage_Roadshow_accountName" prompt="AzureStorage_Roadshow_accountName?" promptNeeded="false" type="id_String" value="bndroadshowbdstorage"/>
+    <contextParameter xmi:id="_ZFww001hEeira-DiVZEmYA" comment="" name="AzureStorage_Roadshow_sharedAccessSignature" prompt="AzureStorage_Roadshow_sharedAccessSignature?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_ZFww1E1hEeira-DiVZEmYA" comment="" name="Container_Name" prompt="Container_Name?" promptNeeded="false" type="id_String" value="bndroadshowbdrawdata"/>
+    <contextParameter xmi:id="_ZFww1U1hEeira-DiVZEmYA" comment="" name="Storage_Folder" prompt="Storage_Folder?" promptNeeded="false" type="id_String" value="data/input"/>
+  </talendfile:ContextType>
+</xmi:XMI>

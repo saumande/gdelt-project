@@ -2,12 +2,21 @@
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
   <context confirmationNeeded="false" name="Default">
     <contextParameter comment="" name="repWork" prompt="repWork?" promptNeeded="false" type="id_Directory" value="C:/Users/nsaumande/Desktop/GDELT/Fichiers/test/"/>
+    <contextParameter comment="" name="AzureStorage_Roadshow_accountKey" prompt="AzureStorage_Roadshow_accountKey?" promptNeeded="false" repositoryContextId="_CmRZ4E0-EeiDGJbYmYjfKg" type="id_Password" value="pdbGveAQmG7ejjYs2rMfLrE9M6a5x/1OJAi7PcHnIW3RcftTM/1b/vGSIWC5KoEIdL+As28A5QnvK2hjPuzEDe6hthZ/gd0Adv7Nvqqt9+fhLvFrqkdOLA3oIPPPdV2S"/>
+    <contextParameter comment="" name="AzureStorage_Roadshow_accountName" prompt="AzureStorage_Roadshow_accountName?" promptNeeded="false" repositoryContextId="_CmRZ4E0-EeiDGJbYmYjfKg" type="id_String" value="bndroadshowbdstorage"/>
+    <contextParameter comment="" name="AzureStorage_Roadshow_sharedAccessSignature" prompt="AzureStorage_Roadshow_sharedAccessSignature?" promptNeeded="false" repositoryContextId="_CmRZ4E0-EeiDGJbYmYjfKg" type="id_String" value=""/>
+    <contextParameter comment="" name="Container_Name" prompt="Container_Name?" promptNeeded="false" repositoryContextId="_CmRZ4E0-EeiDGJbYmYjfKg" type="id_String" value="bndroadshowbdrawdata"/>
+    <contextParameter comment="" name="Storage_Folder" prompt="Storage_Folder?" promptNeeded="false" repositoryContextId="_CmRZ4E0-EeiDGJbYmYjfKg" type="id_String" value="data/input"/>
+    <contextParameter comment="Fichier event code GDELT v2.csv" name="resource_file_eventCode" prompt="resource_file_eventCode?" promptNeeded="false" type="id_String" value="C:/Users/nsaumande/Desktop/GDELT/event code GDELT v2.csv"/>
+  </context>
+  <context confirmationNeeded="false" name="BnD">
+    <contextParameter comment="" name="repWork" prompt="repWork?" promptNeeded="false" type="id_Directory" value="C:/Users/nsaumande/Desktop/GDELT/Fichiers/test/"/>
+    <contextParameter comment="Fichier event code GDELT v2.csv" name="resource_file_eventCode" prompt="resource_file_eventCode?" promptNeeded="false" type="id_String" value="C:/Users/nsaumande/Desktop/GDELT/event code GDELT v2.csv"/>
     <contextParameter comment="" name="AzureStorage_Roadshow_accountKey" prompt="AzureStorage_Roadshow_accountKey?" promptNeeded="false" repositoryContextId="_CmRZ4E0-EeiDGJbYmYjfKg" type="id_Password" value="08qtVvE1afhsyrgwxaw0q9+mVW0whpWwuA0+30ZGi+gFViCWBK/W4MbNf9pj24lNijXDW06i8ca77B1iInLBtpKeY6vGN2SNxJQVrKosQONm0Vz3DuPgw0ldeV6EuPX6"/>
     <contextParameter comment="" name="AzureStorage_Roadshow_accountName" prompt="AzureStorage_Roadshow_accountName?" promptNeeded="false" repositoryContextId="_CmRZ4E0-EeiDGJbYmYjfKg" type="id_String" value="roadshowbdstorage"/>
     <contextParameter comment="" name="AzureStorage_Roadshow_sharedAccessSignature" prompt="AzureStorage_Roadshow_sharedAccessSignature?" promptNeeded="false" repositoryContextId="_CmRZ4E0-EeiDGJbYmYjfKg" type="id_String" value=""/>
     <contextParameter comment="" name="Container_Name" prompt="Container_Name?" promptNeeded="false" repositoryContextId="_CmRZ4E0-EeiDGJbYmYjfKg" type="id_String" value="roadshowbdrawdata"/>
     <contextParameter comment="" name="Storage_Folder" prompt="Storage_Folder?" promptNeeded="false" repositoryContextId="_CmRZ4E0-EeiDGJbYmYjfKg" type="id_String" value="data/input"/>
-    <contextParameter comment="Fichier event code GDELT v2.csv" name="resource_file_eventCode" prompt="resource_file_eventCode?" promptNeeded="false" type="id_String" value="C:/Users/nsaumande/Desktop/GDELT/event code GDELT v2.csv"/>
   </context>
   <parameters>
     <elementParameter field="TEXT" name="JOB_RUN_VM_ARGUMENTS" value="{&quot;JOB_RUN_VM_ARGUMENTS&quot;:[&quot;-Xms1024M&quot;,&quot;-Xmx4096M&quot;]}" show="false"/>
@@ -1470,7 +1479,7 @@
       <column comment="" key="false" length="17" name="AvgTone_avg" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="15" type="id_Double" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties shellMaximized="true"/>
+      <uiProperties/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="out" expressionFilter="row1.GoldsteinScale != null &amp;&amp;  row1.SOURCEURL != null &amp;&amp; !&quot;&quot;.equals(row1.SOURCEURL)" activateExpressionFilter="true">
         <mapperTableEntries name="EventCode" expression="row1.EventCode " type="id_String" nullable="true"/>
