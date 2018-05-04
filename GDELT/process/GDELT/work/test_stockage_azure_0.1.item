@@ -6,7 +6,7 @@
     <contextParameter comment="" name="AzureStorage_Roadshow_sharedAccessSignature" prompt="AzureStorage_Roadshow_sharedAccessSignature?" promptNeeded="false" repositoryContextId="_CmRZ4E0-EeiDGJbYmYjfKg" type="id_String" value=""/>
   </context>
   <context confirmationNeeded="false" name="BnD">
-    <contextParameter comment="" name="AzureStorage_Roadshow_accountKey" prompt="AzureStorage_Roadshow_accountKey?" promptNeeded="false" repositoryContextId="_CmRZ4E0-EeiDGJbYmYjfKg" type="id_Password" value="08qtVvE1afhsyrgwxaw0q9+mVW0whpWwuA0+30ZGi+gFViCWBK/W4MbNf9pj24lNijXDW06i8ca77B1iInLBtpKeY6vGN2SNxJQVrKosQONm0Vz3DuPgw0ldeV6EuPX6"/>
+    <contextParameter comment="" name="AzureStorage_Roadshow_accountKey" prompt="AzureStorage_Roadshow_accountKey?" promptNeeded="false" repositoryContextId="_CmRZ4E0-EeiDGJbYmYjfKg" type="id_Password" value="pdbGveAQmG7ejjYs2rMfLrE9M6a5x/1OJAi7PcHnIW3RcftTM/1b/vGSIWC5KoEIdL+As28A5QnvK2hjPuzEDe6hthZ/gd0Adv7Nvqqt9+fhLvFrqkdOLA3oIPPPdV2S"/>
     <contextParameter comment="" name="AzureStorage_Roadshow_accountName" prompt="AzureStorage_Roadshow_accountName?" promptNeeded="false" repositoryContextId="_CmRZ4E0-EeiDGJbYmYjfKg" type="id_String" value="roadshowbdstorage"/>
     <contextParameter comment="" name="AzureStorage_Roadshow_sharedAccessSignature" prompt="AzureStorage_Roadshow_sharedAccessSignature?" promptNeeded="false" repositoryContextId="_CmRZ4E0-EeiDGJbYmYjfKg" type="id_String" value=""/>
   </context>
