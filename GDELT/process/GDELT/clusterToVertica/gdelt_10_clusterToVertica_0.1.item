@@ -528,7 +528,7 @@
     <elementParameter field="TEXT" name="REJECTED_NODE" value="" show="false"/>
     <elementParameter field="CHECK" name="NO_COMMIT" value="false" show="false"/>
     <elementParameter field="TEXT" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
-    <elementParameter field="TEXT" name="COMMIT_EVERY" value="1000"/>
+    <elementParameter field="TEXT" name="COMMIT_EVERY" value="10000"/>
     <elementParameter field="CHECK" name="BATCH_MODE" value="true"/>
     <elementParameter field="LABEL" name="NOTE" value="(Not compatible with reject links)"/>
     <elementParameter field="TEXT" name="BATCH_SIZE" value="10000"/>
