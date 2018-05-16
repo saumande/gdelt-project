@@ -516,21 +516,21 @@
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;INPUT_DATA&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="CHECK" name="USE_CASCADE" value="true" show="false"/>
-    <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
+    <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="COPY"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
     <elementParameter field="MAPPING_TYPE" name="MAPPING" value="vertica_id" show="false"/>
     <elementParameter field="TEXT" name="PROPERTIES" value="context.Vertica_AdditionalParams"/>
-    <elementParameter field="CHECK" name="ABORT_ON_ERROR" value="false" show="false"/>
-    <elementParameter field="TEXT" name="REJECT_MAX" value="" show="false"/>
-    <elementParameter field="FILE" name="EXCEPTIONS_PATH" value="" show="false"/>
-    <elementParameter field="TEXT" name="EXCEPTIONS_NODE" value="" show="false"/>
-    <elementParameter field="FILE" name="REJECTED_DATA" value="" show="false"/>
-    <elementParameter field="TEXT" name="REJECTED_NODE" value="" show="false"/>
-    <elementParameter field="CHECK" name="NO_COMMIT" value="true" show="false"/>
+    <elementParameter field="CHECK" name="ABORT_ON_ERROR" value="false"/>
+    <elementParameter field="TEXT" name="REJECT_MAX" value=""/>
+    <elementParameter field="FILE" name="EXCEPTIONS_PATH" value=""/>
+    <elementParameter field="TEXT" name="EXCEPTIONS_NODE" value=""/>
+    <elementParameter field="FILE" name="REJECTED_DATA" value=""/>
+    <elementParameter field="TEXT" name="REJECTED_NODE" value=""/>
+    <elementParameter field="CHECK" name="NO_COMMIT" value="true"/>
     <elementParameter field="TEXT" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
-    <elementParameter field="TEXT" name="COMMIT_EVERY" value="1000"/>
+    <elementParameter field="TEXT" name="COMMIT_EVERY" value="1000" show="false"/>
     <elementParameter field="CHECK" name="BATCH_MODE" value="true"/>
-    <elementParameter field="LABEL" name="NOTE" value="(Not compatible with reject links)"/>
+    <elementParameter field="LABEL" name="NOTE" value="(Not compatible with reject links)" show="false"/>
     <elementParameter field="TEXT" name="BATCH_SIZE" value="100"/>
     <elementParameter field="TABLE" name="ADD_COLS"/>
     <elementParameter field="CHECK" name="USE_FIELD_OPTIONS" value="false"/>
