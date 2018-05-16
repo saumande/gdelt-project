@@ -307,6 +307,7 @@
       <relatedItems xmi:id="_LnRuM1FhEeiUfqZjZLuL4A" id="TalendStringUtil" version="Latest" type="routine"/>
       <relatedItems xmi:id="_LnRuNFFhEeiUfqZjZLuL4A" id="_AeNH8FFhEeiUfqZjZLuL4A - metadata" version="Latest" type="schema"/>
       <relatedItems xmi:id="_KAeCwFHtEeiLyfuWtz8KEg" id="_QBRLwFHmEeiLyfuWtz8KEg" version="Latest" type="property"/>
+      <relatedItems xmi:id="_Zlb20FjPEei-Jd6Wm9pR0A" id="_NAM0oFjPEei-Jd6Wm9pR0A" version="Latest" type="context"/>
     </ItemsRelations>
     <ItemsRelations xmi:id="_BXG-8Fg9EeiKidW1haHXSA">
       <baseItem xmi:id="_BXG-8Vg9EeiKidW1haHXSA" id="_Y3qrwFgoEeiKidW1haHXSA" version="0.1" type="job"/>
