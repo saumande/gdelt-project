@@ -5,6 +5,6 @@
   <contextParameter xmi:id="_NAfvk1jPEei-Jd6Wm9pR0A" comment="" name="Vertica_AdditionalParams" prompt="Vertica_AdditionalParams?" promptNeeded="false" type="id_String" value=""/>
   <contextParameter xmi:id="_NAfvlFjPEei-Jd6Wm9pR0A" comment="" name="Vertica_Password" prompt="Vertica_Password?" promptNeeded="false" type="id_Password" value="1QY6ZyNqCD4BAhKeqSkILQ=="/>
   <contextParameter xmi:id="_NAfvlVjPEei-Jd6Wm9pR0A" comment="" name="Vertica_Port" prompt="Vertica_Port?" promptNeeded="false" type="id_String" value="5433"/>
-  <contextParameter xmi:id="_NAfvlljPEei-Jd6Wm9pR0A" comment="" name="Vertica_Server" prompt="Vertica_Server?" promptNeeded="false" type="id_String" value="bndroadshowbdvertica-ip"/>
+  <contextParameter xmi:id="_NAfvlljPEei-Jd6Wm9pR0A" comment="" name="Vertica_Server" prompt="Vertica_Server?" promptNeeded="false" type="id_String" value="bndroadshowbdvertica.westus.cloudapp.azure.com"/>
   <contextParameter xmi:id="_NAfvl1jPEei-Jd6Wm9pR0A" comment="" name="Vertica_Schema" prompt="Vertica_Schema?" promptNeeded="false" type="id_String" value=""/>
 </talendfile:ContextType>
