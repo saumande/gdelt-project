@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_NAfvkFjPEei-Jd6Wm9pR0A" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_NAfvkVjPEei-Jd6Wm9pR0A" comment="" name="Vertica_Login" prompt="Vertica_Login?" promptNeeded="false" type="id_String" value="dbadmin"/>
+  <contextParameter xmi:id="_NAfvkljPEei-Jd6Wm9pR0A" comment="" name="Vertica_Database" prompt="Vertica_Database?" promptNeeded="false" type="id_String" value="vertica"/>
+  <contextParameter xmi:id="_NAfvk1jPEei-Jd6Wm9pR0A" comment="" name="Vertica_AdditionalParams" prompt="Vertica_AdditionalParams?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_NAfvlFjPEei-Jd6Wm9pR0A" comment="" name="Vertica_Password" prompt="Vertica_Password?" promptNeeded="false" type="id_Password" value="1QY6ZyNqCD4BAhKeqSkILQ=="/>
+  <contextParameter xmi:id="_NAfvlVjPEei-Jd6Wm9pR0A" comment="" name="Vertica_Port" prompt="Vertica_Port?" promptNeeded="false" type="id_String" value="5433"/>
+  <contextParameter xmi:id="_NAfvlljPEei-Jd6Wm9pR0A" comment="" name="Vertica_Server" prompt="Vertica_Server?" promptNeeded="false" type="id_String" value="104.210.52.26"/>
+  <contextParameter xmi:id="_NAfvl1jPEei-Jd6Wm9pR0A" comment="" name="Vertica_Schema" prompt="Vertica_Schema?" promptNeeded="false" type="id_String" value=""/>
+</talendfile:ContextType>

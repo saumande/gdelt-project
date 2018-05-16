@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
-  <TalendMetadata:DatabaseConnection xmi:id="_gER8YFHmEeiLyfuWtz8KEg" name="Vertica" id="_QBRLwFHmEeiLyfuWtz8KEg" label="Vertica" dataPackage="_hPkDwFHmEeiLyfuWtz8KEg" DatabaseType="Vertica" DriverClass="com.vertica.jdbc.Driver" URL="jdbc:vertica://104.210.52.26:5433/vertica?" dbVersionString="VERTICA_9_0" Port="5433" Username="dbadmin" Password="1QY6ZyNqCD4BAhKeqSkILQ==" ServerName="104.210.52.26" DatasourceName="" FileFieldName="" SID="vertica" SqlSynthax="SQL Syntax" DbmsId="vertica_id" ProductId="VERTICA" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="">
+  <TalendMetadata:DatabaseConnection xmi:id="_gER8YFHmEeiLyfuWtz8KEg" name="Vertica" id="_QBRLwFHmEeiLyfuWtz8KEg" label="Vertica" dataPackage="_hPkDwFHmEeiLyfuWtz8KEg" ContextMode="true" ContextId="_NAM0oFjPEei-Jd6Wm9pR0A" contextName="Default" DatabaseType="Vertica" DriverClass="com.vertica.jdbc.Driver" URL="jdbc:vertica://104.210.52.26:5433/vertica?" dbVersionString="VERTICA_9_0" Port="context.Vertica_Port" Username="context.Vertica_Login" Password="context.Vertica_Password" ServerName="context.Vertica_Server" DatasourceName="" FileFieldName="" SID="context.Vertica_Database" SqlSynthax="SQL Syntax" DbmsId="vertica_id" ProductId="VERTICA" AdditionalParams="context.Vertica_AdditionalParams" StandardSQL="true" SQLMode="false" UiSchema="context.Vertica_Schema">
     <taggedValue xmi:id="_gER8YVHmEeiLyfuWtz8KEg" tag="Is Conn Need Reload" value="false"/>
     <taggedValue xmi:id="_gEuoUFHmEeiLyfuWtz8KEg" tag="package filter" value=""/>
     <taggedValue xmi:id="_gE4ZUFHmEeiLyfuWtz8KEg" tag="Status" value=""/>
@@ -12,7 +12,8 @@
     <taggedValue xmi:id="_gnLOEFHmEeiLyfuWtz8KEg" tag="DB ProductName" value="Vertica Database"/>
     <taggedValue xmi:id="_gnLOEVHmEeiLyfuWtz8KEg" tag="DB ProductVersion" value="09.01.0000"/>
     <taggedValue xmi:id="_gnLOElHmEeiLyfuWtz8KEg" tag="DB IdentifierQuoteString" value="&quot;"/>
-    <parameters xmi:id="_gER8YlHmEeiLyfuWtz8KEg" key="CONN_PARA_KEY_USERNAME" value="dbadmin"/>
+    <parameters xmi:id="_gER8YlHmEeiLyfuWtz8KEg" key="CONN_PARA_KEY_USERNAME" value="context.Vertica_Login"/>
+    <parameters xmi:id="_KkF-kFjPEei-Jd6Wm9pR0A" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
   </TalendMetadata:DatabaseConnection>
   <orgomg.cwm.resource.relational:Catalog xmi:id="_hPkDwFHmEeiLyfuWtz8KEg" name="vertica" dataManager="_gER8YFHmEeiLyfuWtz8KEg">
     <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_hPkDwVHmEeiLyfuWtz8KEg" name="public"/>
