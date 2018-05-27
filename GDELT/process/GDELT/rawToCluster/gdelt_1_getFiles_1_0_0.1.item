@@ -345,7 +345,6 @@
       <column key="false" length="255" name="line" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="newColumn" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="var1" nullable="false" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="newColumn1" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
       <uiProperties shellMaximized="true"/>
@@ -355,9 +354,8 @@
       </outputTables>
       <outputTables sizeState="INTERMEDIATE" name="tmp" activateExpressionFilter="true">
         <mapperTableEntries name="line" expression="row1.line " type="id_String" nullable="true"/>
-        <mapperTableEntries name="newColumn" expression="row1.line.indexOf(&quot;\&quot;&quot;, 21) " type="id_Integer" nullable="true"/>
-        <mapperTableEntries name="var1" expression="row1.line.substring(20, row1.line.indexOf(&quot;\&quot;&quot;, 21)) " type="id_String"/>
-        <mapperTableEntries name="newColumn1" expression="row1.line.substring(6)" type="id_String" nullable="true"/>
+        <mapperTableEntries name="newColumn" expression="row1.line.indexOf(&quot;\&quot;&quot;, 19) " type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="var1" expression="row1.line.substring(20, row1.line.indexOf(&quot;\&quot;&quot;, 19)) " type="id_String"/>
       </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="row1" expressionFilter="&quot;&lt;/li>&quot;.equals(row1.line.substring(0,5))" activateExpressionFilter="true" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
         <mapperTableEntries name="line" type="id_String" nullable="true"/>
@@ -384,8 +382,6 @@
       <elementValue elementRef="LENGTH" value="10"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="var1"/>
       <elementValue elementRef="LENGTH" value="10"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn1"/>
-      <elementValue elementRef="LENGTH" value="10"/>
     </elementParameter>
     <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="true"/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
@@ -394,7 +390,6 @@
       <column key="false" length="255" name="line" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="newColumn" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="var1" nullable="false" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="newColumn1" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
   <node componentName="tFlowToIterate" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="480" posY="96">
