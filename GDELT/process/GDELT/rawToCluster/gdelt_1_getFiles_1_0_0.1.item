@@ -363,7 +363,7 @@
         <mapperTableEntries name="newColumn1" expression="row1.line.substring(6)" type="id_String" nullable="true"/>
       </outputTables>
       <outputTables sizeState="INTERMEDIATE" name="tmp2">
-        <mapperTableEntries name="newColumn1" expression="row1.line.substring(6) " type="id_String" nullable="true"/>
+        <mapperTableEntries name="newColumn1" expression="row1.line.substring(0,6) " type="id_String" nullable="true"/>
       </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="row1" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
         <mapperTableEntries name="line" type="id_String" nullable="true"/>
