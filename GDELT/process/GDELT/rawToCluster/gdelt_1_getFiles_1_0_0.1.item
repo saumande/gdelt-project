@@ -356,7 +356,7 @@
       </outputTables>
       <outputTables sizeState="INTERMEDIATE" name="day" expressionFilter="Var.ficdate.indexOf(&quot;export&quot;) > 0 " activateExpressionFilter="true">
         <mapperTableEntries name="var1" expression="Var.url " type="id_String"/>
-        <mapperTableEntries name="newColumn" expression="Var.ficdatel.substring(0,9)" type="id_String" nullable="true"/>
+        <mapperTableEntries name="newColumn" expression="Var.ficdate.substring(0,9)" type="id_String" nullable="true"/>
       </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="row1" expressionFilter="&quot;&lt;/li>&lt;li>&quot;.equals(row1.line.substring(0,9))" activateExpressionFilter="true" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
         <mapperTableEntries name="line" type="id_String" nullable="true"/>
