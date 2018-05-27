@@ -359,7 +359,7 @@
         <mapperTableEntries name="newColumn" expression="row1.line.indexOf(&quot;\&quot;&quot;, 21) " type="id_Integer" nullable="true"/>
         <mapperTableEntries name="var1" expression="Var.var1 " type="id_String"/>
       </outputTables>
-      <inputTables sizeState="INTERMEDIATE" name="row1" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
+      <inputTables sizeState="INTERMEDIATE" name="row1" expressionFilter="&quot;&lt;/li>&quot;.equals(row1.line.substring(6))" activateExpressionFilter="true" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
         <mapperTableEntries name="line" type="id_String" nullable="true"/>
       </inputTables>
     </nodeData>
