@@ -353,7 +353,7 @@
       </outputTables>
       <outputTables sizeState="INTERMEDIATE" name="tmp" activateExpressionFilter="true">
         <mapperTableEntries name="var1" expression="row1.line.substring(18, row1.line.indexOf(&quot;\&quot;&quot;, 21)) " type="id_String"/>
-        <mapperTableEntries name="newColumn" expression="row1.line.substring(57, 65)) " type="id_String" nullable="true"/>
+        <mapperTableEntries name="newColumn" expression="row1.line.substring(57, 65)" type="id_String" nullable="true"/>
       </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="row1" expressionFilter="&quot;&lt;/li>&lt;li>&quot;.equals(row1.line.substring(0,9))" activateExpressionFilter="true" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
         <mapperTableEntries name="line" type="id_String" nullable="true"/>
