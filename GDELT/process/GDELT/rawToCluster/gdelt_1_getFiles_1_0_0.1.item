@@ -348,14 +348,15 @@
     <nodeData xsi:type="TalendMapper:MapperData">
       <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var">
-        <mapperTableEntries name="var1" expression="row1.line.substring(18, row1.line.indexOf(&quot;\&quot;&quot;, 21)) " type="id_String"/>
+        <mapperTableEntries name="url" expression="row1.line.substring(18, row1.line.indexOf(&quot;\&quot;&quot;, 21)) " type="id_String"/>
+        <mapperTableEntries name="ficdate" expression="Var.url.substring(36)" type="id_String"/>
       </varTables>
       <outputTables sizeState="INTERMEDIATE" name="list_file">
         <mapperTableEntries name="var1" expression="row1.line.substring(20, row1.line.indexOf(&quot;\&quot;&quot;, 21)) " type="id_String"/>
       </outputTables>
-      <outputTables sizeState="INTERMEDIATE" name="tmp" activateExpressionFilter="true">
-        <mapperTableEntries name="var1" expression="Var.var1 " type="id_String"/>
-        <mapperTableEntries name="newColumn" expression="Var.var1.substring(36)" type="id_String" nullable="true"/>
+      <outputTables sizeState="INTERMEDIATE" name="tmp" expressionFilter="Var.ficdate.indexOf(&quot;export&quot;) > 0" activateExpressionFilter="true">
+        <mapperTableEntries name="var1" expression="Var.url " type="id_String"/>
+        <mapperTableEntries name="newColumn" expression="Var.url.substring(36)" type="id_String" nullable="true"/>
       </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="row1" expressionFilter="&quot;&lt;/li>&lt;li>&quot;.equals(row1.line.substring(0,9))" activateExpressionFilter="true" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
         <mapperTableEntries name="line" type="id_String" nullable="true"/>
