@@ -345,6 +345,7 @@
     <metadata connector="FLOW" label="tmp" name="tmp">
       <column comment="" key="false" length="-1" name="var1" nullable="false" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="newColumn" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="newColumn1" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="" type="id_Date" originalLength="-1" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
       <uiProperties shellMaximized="true"/>
@@ -358,7 +359,8 @@
       </outputTables>
       <outputTables sizeState="INTERMEDIATE" name="tmp" expressionFilter="Var.ficdate.indexOf(&quot;export&quot;) > 0 " activateExpressionFilter="true">
         <mapperTableEntries name="var1" expression="Var.url  " type="id_String"/>
-        <mapperTableEntries name="newColumn" expression="Var.ficdate.substring(0,9) " type="id_String" nullable="true"/>
+        <mapperTableEntries name="newColumn" expression="Var.ficdate.substring(0,8) " type="id_String" nullable="true"/>
+        <mapperTableEntries name="newColumn1" expression="TalendDate.parseDate(&quot;yyyyMMdd&quot;,Var.ficdate.substring(0,8) ) " type="id_Date" nullable="true"/>
       </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="row1" expressionFilter="&quot;&lt;/li>&lt;li>&quot;.equals(row1.line.substring(0,9))" activateExpressionFilter="true" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
         <mapperTableEntries name="line" type="id_String" nullable="true"/>
@@ -383,6 +385,8 @@
       <elementValue elementRef="LENGTH" value="10"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="newColumn"/>
       <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn1"/>
+      <elementValue elementRef="LENGTH" value="10"/>
     </elementParameter>
     <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="true"/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
@@ -390,6 +394,7 @@
     <metadata connector="FLOW" label="tmp" name="tLogRow_2">
       <column comment="" key="false" length="-1" name="var1" nullable="false" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="newColumn" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="newColumn1" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="" type="id_Date" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
   <node componentName="tFlowToIterate" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="480" posY="96">
@@ -484,6 +489,11 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="day" show="false"/>
   </connection>
   <connection connectorName="FLOW" label="tmp" lineStyle="0" metaname="tmp" offsetLabelX="0" offsetLabelY="0" outputId="2" source="tMap_2" target="tLogRow_2">
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+      <elementValue elementRef="TRACE_COLUMN" value="newColumn1"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tmp" show="false"/>
   </connection>
